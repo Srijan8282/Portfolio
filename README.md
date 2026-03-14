@@ -1,7 +1,5 @@
 # Srijan Kundu Chowdhury — Portfolio
 
-A production-ready, modern, highly interactive personal portfolio built with **React + Vite + Framer Motion**.
-
 ## ✨ Features
 
 - 🎨 Dark cyberpunk aesthetic with custom CSS variables
@@ -17,37 +15,6 @@ A production-ready, modern, highly interactive personal portfolio built with **R
 - 🏆 Competitive programming stats section
 - 🎯 Tabbed experience section
 - 🔐 Noise overlay texture for depth
-
----
-
-## 📁 File Structure
-
-```
-portfolio/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   ├── Cursor.jsx          # Custom animated cursor
-│   │   ├── Navbar.jsx          # Sticky nav with mobile menu
-│   │   └── ScrollProgress.jsx  # Scroll progress bar
-│   ├── sections/
-│   │   ├── Hero.jsx            # Hero + particle canvas + stats bar
-│   │   ├── About.jsx           # Bio + education cards
-│   │   ├── Experience.jsx      # Tabbed work experience
-│   │   ├── Projects.jsx        # Featured + other projects grid
-│   │   ├── Skills.jsx          # Skill category cards + marquee
-│   │   ├── Competitive.jsx     # CP platforms + achievements
-│   │   └── Contact.jsx         # Contact form + social links
-│   ├── styles/
-│   │   └── global.css          # CSS variables, resets, utilities
-│   ├── data.js                 # All portfolio content (single source of truth)
-│   ├── App.jsx                 # Root component
-│   └── main.jsx                # Entry point
-├── index.html
-├── vite.config.js
-└── package.json
-```
 
 ---
 
@@ -107,21 +74,6 @@ npm run build
 
 ---
 
-## ✏️ Customization
-
-All content lives in **`src/data.js`** — update your name, bio, links, experience, projects, skills, and achievements there.
-
-To update social links, replace the `#` placeholders in `data.js`:
-```js
-links: {
-  linkedin: "https://linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
-  linktree: "https://linktr.ee/your-handle"
-}
-```
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -134,8 +86,3 @@ links: {
 | react-icons | Icon library |
 | react-intersection-observer | Scroll-triggered animations |
 
----
-
-## 📄 License
-
-MIT — feel free to use and adapt.
